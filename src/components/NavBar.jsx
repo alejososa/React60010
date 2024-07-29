@@ -9,7 +9,7 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary" bg="light" data-bs-theme="light">
             <Container>
-                <Navbar.Brand href="#home">ABAMA</Navbar.Brand>
+                <Navbar.Brand  href="#home">ABAMA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -23,6 +23,7 @@ export const NavBar = () => {
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.5">CONTACTO</NavDropdown.Item>
                         </NavDropdown>
+                        
                     </Nav>
                 </Navbar.Collapse>
                 <CartWidget/>
