@@ -1,61 +1,61 @@
 [ 
   {
     "id": 1,
-    "product_name": "item uno",
+    "product_name": "BUZO",
     "product_category": "Ropa casual",
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "negro",
-    "img": "imagen"
+    "img": "buzo_negro_frente.jpg"
   },
   {
     "id": 2,
-    "product_name": "Buzo",
+    "product_name": "BUZO",
     "product_category": "Ropa casual",
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "rojo",
-    "img":"imagen"
+    "img":"buzo_rojo_frente.jpg"
   },
   {
     "id": 3,
-    "product_name": "Lycra",
+    "product_name": "SHORT ",
     "product_description": "Lycra de entrenamiento",
     "product_category": "Ropa de entrenamiento",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
-    "img":"imagen"
+    "img":"short_negro.jpg"
   },
   {
     "id": 4,
-    "product_name": "bermuda",
+    "product_name": "REMERA",
     "product_description": "bermuda de entrenamiento",
     "product_category": "Ropa de entrenamiento",
-    "product_price": 818.89,
-    "product_quantity": 895,
-    "product_color": "negra",
-    "img":"imagen"
-  },
-  {
-    "id": 5,
-    "product_name": "remera",
-    "product_description": "remera de algodon",
-    "product_category": "Ropa casual",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
     "img":"remera_negra_frente.jpg"
   },
   {
-    "id": 6,
-    "product_name": "remera",
+    "id": 5,
+    "product_name": "REMERA",
     "product_description": "remera de algodon",
     "product_category": "Ropa casual",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "blanca",
-    "img":"imagen"
+    "img":"remere_blanca_frente.jpg"
+  },
+  {
+    "id": 6,
+    "product_name": "SHORT",
+    "product_description": "remera de algodon",
+    "product_category": "Ropa casual",
+    "product_price": 818.89,
+    "product_quantity": 895,
+    "product_color": "rojo",
+    "img":"short_rojo.jpg"
   },
   {
     "id": 7,
