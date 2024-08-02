@@ -1,12 +1,12 @@
-[
+[ 
   {
     "id": 1,
-    "product_name": "Buzo",
+    "product_name": "item uno",
     "product_category": "Ropa casual",
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "negro",
-    "img":"imagen"
+    "img": "imagen"
   },
   {
     "id": 2,
@@ -45,7 +45,7 @@
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
-    "img":"imagen"
+    "img":"remera_negra_frente.jpg"
   },
   {
     "id": 6,
