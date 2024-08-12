@@ -1,11 +1,40 @@
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import { ItemListContainer } from "./components/ItemListContainer"
+import { ItemDetailsContainer } from "./components/ItemDetailsContainer"
 import { NavBar } from "./components/NavBar"
-import { useEffect, useState } from "react"
-import  data from "./data/MOCK_DATA.json"
-import { CardList } from "./components/CardList"
+//import { useEffect, useState } from "react"
+//import  data from "./data/MOCK_DATA.json"
+
 
 
 function App() {
+
+
+  return (
+    
+    <BrowserRouter>
+    <NavBar/>
+    <Routes>
+      <Route path="/" element={<ItemListContainer/>}></Route>
+      <Route path="/category/:id" element={<ItemListContainer/>}></Route>
+      <Route path="/Item/:id" element={<ItemDetailsContainer/>}></Route>
+      <Route path="*" element={404}></Route>
+      
+    </Routes>
+    
+    
+
+  
+
+    
+    </BrowserRouter>
+    
+  );
+}
+
+export default App
+
+/*
 const [products, setProducts] = useState([])
 const [loading, setloading] = useState(true)
   useEffect(()=>{
@@ -17,19 +46,5 @@ setTimeout(()=>res(data), 2000)
     })
     .catch(error=>console.error(error))
     .finally(()=>setloading(false))
-  },[])
-
-  return (
-    <>
-    <NavBar/>
-    <ItemListContainer greeting="Buenas"/>
-    <CardList products={products}/>
-
-  
-
-    
-    </>
-  )
-}
-
-export default App
+  },[]);
+  */

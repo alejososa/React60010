@@ -2,7 +2,7 @@
   {
     "id": 1,
     "product_name": "BUZO",
-    "product_category": "Ropa casual",
+    "product_category": "casual",
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "negro",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "product_name": "BUZO",
-    "product_category": "Ropa casual",
+    "product_category": "casual",
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "rojo",
@@ -21,7 +21,7 @@
     "id": 3,
     "product_name": "SHORT ",
     "product_description": "Lycra de entrenamiento",
-    "product_category": "Ropa de entrenamiento",
+    "product_category": "entrenamiento",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
@@ -30,8 +30,8 @@
   {
     "id": 4,
     "product_name": "REMERA",
-    "product_description": "bermuda de entrenamiento",
-    "product_category": "Ropa de entrenamiento",
+    "product_description": "remera de algodon",
+    "product_category": "casual",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
@@ -41,7 +41,7 @@
     "id": 5,
     "product_name": "REMERA",
     "product_description": "remera de algodon",
-    "product_category": "Ropa casual",
+    "product_category": "casual",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "blanca",
@@ -50,51 +50,23 @@
   {
     "id": 6,
     "product_name": "SHORT",
-    "product_description": "remera de algodon",
-    "product_category": "Ropa casual",
+    "product_description": "short para practicar deporte",
+    "product_category": "entrenamiento",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "rojo",
     "img":"short_rojo.jpg"
   },
-  {
-    "id": 7,
-    "product_name": "algo",
-    "product_description": "Lycra de entrenamiento",
-    "product_category": "Ropa de entrenamiento",
-    "product_price": 818.89,
-    "product_quantity": 895,
-    "product_color": "negra",
-    "img":"imagen"
-  },
+ 
   {
     "id": 8,
-    "product_name": "algo",
-    "product_description": "Lycra de entrenamiento",
-    "product_category": "Ropa de entrenamiento",
+    "product_name": "LYCRA",
+    "product_description": "casual",
+    "product_category": "entrenamiento",
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
-    "img":"imagen"
-  },
-  {
-    "id": 9,
-    "product_name": "algo",
-    "product_description": "Lycra de entrenamiento",
-    "product_category": "Ropa de entrenamiento",
-    "product_price": 818.89,
-    "product_quantity": 895,
-    "product_color": "negra",
-    "img":"imagen"
-  },
-  {
-    "id": 10,
-    "product_name": "algo",
-    "product_description": "Lycra de entrenamiento",
-    "product_category": "Ropa de entrenamiento",
-    "product_price": 818.89,
-    "product_quantity": 895,
-    "product_color": "negra",
-    "img":"imagen"
+    "img":"lycra.jpg"
   }
+  
 ]
