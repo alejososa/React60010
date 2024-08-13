@@ -6,7 +6,7 @@
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "negro",
-    "img": "buzo_negro_frente.jpg"
+    "img": "/assets/buzo_negro_frente.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "product_price": 980.88,
     "product_quantity": 639,
     "product_color": "rojo",
-    "img":"buzo_rojo_frente.jpg"
+    "img":"/assets/buzo_rojo_frente.jpg"
   },
   {
     "id": 3,
@@ -25,7 +25,7 @@
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
-    "img":"short_negro.jpg"
+    "img":"/assets/short_negro.jpg"
   },
   {
     "id": 4,
@@ -35,7 +35,7 @@
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
-    "img":"remera_negra_frente.jpg"
+    "img":"/assets/remera_negra_frente.jpg"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "blanca",
-    "img":"remere_blanca_frente.jpg"
+    "img":"/assets/remere_blanca_frente.jpg"
   },
   {
     "id": 6,
@@ -55,7 +55,7 @@
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "rojo",
-    "img":"short_rojo.jpg"
+    "img":"/assets/short_rojo.jpg"
   },
  
   {
@@ -66,7 +66,7 @@
     "product_price": 818.89,
     "product_quantity": 895,
     "product_color": "negra",
-    "img":"lycra.jpg"
+    "img":"/assets/lycra.jpg"
   }
   
 ]

@@ -34,7 +34,7 @@ function App() {
 
 export default App
 
-/*
+/* lo tenia aca pero ya noe s necesario
 const [products, setProducts] = useState([])
 const [loading, setloading] = useState(true)
   useEffect(()=>{
