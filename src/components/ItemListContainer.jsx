@@ -33,7 +33,7 @@ export const ItemListContainer = () => {
         <Container className="d-flex flex-wrap mt-4">
             {items.map((product) => (
                 <Card key={product.id}>
-                    <Card.Img variant="top" src={product.img} style={{width:"25rem"}} />
+                    <Card.Img variant="top" src={product.img} style={{width:"25rem", height: "22rem"}} />
                     <Card.Body>
                         <Card.Title>{product.product_name}</Card.Title>
                         <Card.Text> {product.category}</Card.Text>

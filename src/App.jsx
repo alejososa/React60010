@@ -4,6 +4,7 @@ import { ItemDetailsContainer } from "./components/ItemDetailsContainer"
 import { NavBar } from "./components/NavBar"
 //import { useEffect, useState } from "react"
 //import  data from "./data/MOCK_DATA.json"
+import { getFirestore } from "firebase/firestore"
 
 
 
