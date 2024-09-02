@@ -5,14 +5,21 @@ import { NavBar } from "./components/NavBar"
 //import { useEffect, useState } from "react"
 //import  data from "./data/MOCK_DATA.json"
 import { getFirestore } from "firebase/firestore"
+import { useState } from "react"
+import { CartContext } from "./contexts/CartContext"
+import Contacto from "./components/Contacto"
 
 
 
 function App() {
 
+  const [cart, setCart] = useState([]);
+  
 
   return (
     
+
+    <CartContext.Provider  value={{cart}}>
     <BrowserRouter>
     <NavBar/>
     <Routes>
@@ -20,7 +27,7 @@ function App() {
       <Route path="/category/:id" element={<ItemListContainer/>}></Route>
       <Route path="/Item/:id" element={<ItemDetailsContainer/>}></Route>
       <Route path="*" element={404}></Route>
-      
+      <Route path="contacto" element={<Contacto/>}></Route>
     </Routes>
     
     
@@ -29,7 +36,7 @@ function App() {
 
     
     </BrowserRouter>
-    
+    </CartContext.Provider>
   );
 }
 

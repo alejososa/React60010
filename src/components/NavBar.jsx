@@ -14,14 +14,16 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={NavLink} to="/">HOME</Nav.Link>
+                        <Nav.Link as={NavLink} to="/contacto">CONTACTO</Nav.Link>
                         
                         <NavDropdown title="PRODUCTOS" id="basic-nav-dropdown">
                             <NavDropdown.Item as={NavLink} to="/category/entrenamiento">ENTRENAMIENTO </NavDropdown.Item>
                             <NavDropdown.Item as={NavLink} to="/category/casual">CASUAL</NavDropdown.Item>
                             
                             <NavDropdown.Divider />
-                            <NavDropdown.Item as={NavLink} to="#action/3.5">CONTACTO</NavDropdown.Item>
+                            
                         </NavDropdown>
+                        
                         
                     </Nav>
                 </Navbar.Collapse>

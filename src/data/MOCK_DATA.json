@@ -5,7 +5,7 @@
     "product_category": "casual",
     "product_price": 980.88,
     "product_color": "negro",
-    "product_stock": 100,
+    "product_stock": 10,
     "img": "/assets/buzo_negro_frente.jpg"
   },
   {
@@ -13,7 +13,7 @@
     "product_name": "BUZO",
     "product_category": "casual",
     "product_price": 980.88,
-    "product_stock": 100,
+    "product_stock": 10,
     "product_color": "rojo",
     "img":"/assets/buzo_rojo_frente.jpg"
   },
@@ -23,7 +23,7 @@
     "product_description": "Lycra de entrenamiento",
     "product_category": "entrenamiento",
     "product_price": 818.89,
-    "product_stock": 100,
+    "product_stock": 10,
     "product_color": "negra",
     "img":"/assets/short_negro.jpg"
   },
@@ -33,7 +33,7 @@
     "product_description": "remera de algodon",
     "product_category": "casual",
     "product_price": 818.89,
-    "product_stock": 100,
+    "product_stock": 10,
     "product_color": "negra",
     "img":"/assets/remera_negra_frente.jpg"
   },
@@ -43,7 +43,7 @@
     "product_description": "remera de algodon",
     "product_category": "casual",
     "product_price": 818.89,
-    "product_stock": 100,
+    "product_stock": 10,
     "product_color": "blanca",
     "img":"/assets/remere_blanca_frente.jpg"
   },
@@ -53,7 +53,7 @@
     "product_description": "short para practicar deporte",
     "product_category": "entrenamiento",
     "product_price": 818.89,
-    "product_stock": 100,
+    "product_stock": 10,
     "product_color": "rojo",
     "img":"/assets/short_rojo.jpg"
   },
@@ -64,7 +64,7 @@
     "product_description": "casual",
     "product_category": "entrenamiento",
     "product_price": 818.89,
-    "product_stock": 100,
+    "product_stock": 10,
     "product_color": "negra",
     "img":"/assets/lycra.jpg"
   }

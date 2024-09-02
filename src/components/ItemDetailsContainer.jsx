@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
 import Container from "react-bootstrap/Container";
-
+import ItemDetail from "./ItemDetail";
+import ItemCount from "./ItemCount";
 
 import data from "../data/MOCK_DATA.json"
 
@@ -24,13 +25,30 @@ export const ItemDetailsContainer = () => {
     if (loading) return "cargando";
 
     return (
-        <Container className="mt-4 text-center">
+        <div>
+        {item && <ItemDetail item={item} />}
+    </div>
+  
+
+    );
+}
+    
+/*
+al separarlos ya no es necesario usarlo aca
+<Container className="mt-4 text-center">
             <h1>{item.product_name}</h1>
 
             <img src={item.img} alt="imagen" height={200} />
             <br />
             <b>${item.product_price}</b>
+            
+            <ItemCount
+           
+            cantidad={cantidad}
+            handleSumar={handleSumar}
+            handleRestar={handleRestar}
+            handleAgregar={()=> []}
+            
+            />
         </Container>
-
-    );
-}
+*/
