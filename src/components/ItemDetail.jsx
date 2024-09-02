@@ -4,7 +4,7 @@ import { CartContext } from "../contexts/CartContext";
 
 const ItemDetail = ({ item }) => {
 
-    const { cart, agregarAlCArrito } = useContext(CartContext);
+    const { cart, setCart } = useContext(CartContext);
     console.log(cart);
 
 
@@ -18,10 +18,23 @@ const ItemDetail = ({ item }) => {
         cantidad < item.product_stock && setCantidad(cantidad + 1)
     }
 
+    const handleAgregar=()=>{
+        const selectedItem= {...item, cantidad}
+        const newCart= [...cart]
+        const ItemAlreadySelected = newCart.find((product)=>product.id==selectedItem.id);
+        if (ItemAlreadySelected){
+            ItemAlreadySelected.cantidad =ItemAlreadySelected.cantidad + cantidad
+        }else{
+            setCart([...cart, selectedItem])
+            
+
+        }
+    }
+
     return (
         <div className="container mt-4 text-center" >
             <div className="producto-detalle">
-                <img src={item.img} alt={item.product_name} height={200} />
+                <img src={item.img} alt={item.product_name} height={350} />
                 <div>
                     <h3 className="titulo">{item.product_name}</h3>
                     
@@ -31,7 +44,7 @@ const ItemDetail = ({ item }) => {
                         cantidad={cantidad}
                         handleSumar={handleSumar}
                         handleRestar={handleRestar}
-                        handleAgregar={() => { agregarAlCarrito(item, cantidad) }}
+                        handleAgregar={() => { handleAgregar(item, cantidad) }}
                     />
                 </div>
             </div>

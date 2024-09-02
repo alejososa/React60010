@@ -3,7 +3,11 @@ import React from "react";
 
 const Contacto= ()=>{
     return(
-        <h1>Contacto</h1>
+        <div className="container">
+            <h1>Contacto</h1>
+            si sobra tiempo armar formulario
+        </div>
+        
     )
 
 }
