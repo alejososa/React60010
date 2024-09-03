@@ -31,6 +31,7 @@ const ItemDetail = ({ item }) => {
         }
     }
 
+
     return (
         <div className="container mt-4 text-center" >
             <div className="producto-detalle">

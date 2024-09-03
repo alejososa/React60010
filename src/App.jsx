@@ -15,11 +15,13 @@ function App() {
 
   const [cart, setCart] = useState([]);
   
-
+  const cartCantidad=()=>{
+    return cart.reduce((acc,prod)=>acc+prod.cantidad,0)
+}
   return (
     
 
-    <CartContext.Provider  value={{cart, setCart}}>
+    <CartContext.Provider  value={{cart, setCart,cartCantidad}}>
     <BrowserRouter>
     <NavBar/>
     <Routes>
