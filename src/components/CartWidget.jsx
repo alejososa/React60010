@@ -6,12 +6,12 @@ import { CartContext } from "../contexts/CartContext";
 
 export const CartWidget= ()=>{
 
-    const {cartCantidad} = useContext(CartContext);
+    const {cantidadEnCarrito} = useContext(CartContext);
 return (
 <>
 
 <Link as={NavLink} to="/carrito">
-<img src={cart} alt="cart" /> <span className="numeroDeCompras">{cartCantidad()}</span>  
+<img src={cart} alt="cart" /> <span className="numeroDeCompras">{cantidadEnCarrito()}</span>  
 </Link>
 </>
 );
