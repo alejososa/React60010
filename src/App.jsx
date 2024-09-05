@@ -6,6 +6,8 @@ import { getFirestore } from "firebase/firestore"
 import { CartProvider } from "./contexts/CartContext"
 import Contacto from "./components/Contacto"
 import { Carrito } from "./components/Carrito"
+import Finalizar from "./components/Finalizar"
+
 
 
 
@@ -26,6 +28,8 @@ function App() {
       <Route path="*" element={404}></Route>
       <Route path="contacto" element={<Contacto/>}></Route>
       <Route path="carrito" element={<Carrito/>}></Route>
+      <Route path="finalizar" element={<Finalizar/>}></Route>
+     
     </Routes>
     
     

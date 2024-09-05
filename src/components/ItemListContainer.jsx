@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
     const [items, setItems] = useState([])
     const [loading, setloading] = useState(true)
     const {id}=useParams()
-    //const product_category = useParams().product_category
+   
 
 
 

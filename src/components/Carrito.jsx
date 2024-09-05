@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../contexts/CartContext'
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -34,8 +35,10 @@ export const Carrito = () => {
                 carrito.length > 0 ?
                     <>
                         <h2>Precio total: ${precioTotal()}</h2>
-                        <button onClick={handleVaciar}>Vaciar</button>
-                        <Link to="/checkout">Finalizar compra</Link>
+                        
+                        <Button variant="danger" onClick={handleVaciar}>Vaciar</Button><span></span>
+                        <Button variant="success" href='/finalizar'>Comprar</Button>
+                        
                     </> :
                     <h2>No seleccionaste ningún producto aún</h2>
             }
